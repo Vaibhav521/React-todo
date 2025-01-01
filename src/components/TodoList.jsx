@@ -2,7 +2,7 @@ import Tick from '../assets/Tick.jsx'
 import Refresh from '../assets/Refresh.jsx'
 function TodoList({ todoArry, toggleMarkAsCompleted }) {
     return (
-        <div className="rounded-lg max-w-md mx-auto">
+        <div className="rounded-lg max-w-md mx-auto sm:p-4 md:p-6 p-2"> 
             {todoArry.length === 0 ? (
                 <div className="flex items-center justify-center p-25 h-screen">
                     <h1 className='text-2xl text-border'>No todos found</h1>
