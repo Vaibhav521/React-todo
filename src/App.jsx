@@ -9,6 +9,7 @@ function App() {
   const [filter, setFilter] = useState('all')
 
 
+  
   const addTodo = (todoData) => {
     setTodos([...todos, { id: Date.now(), text: todoData, isCompleted: false }])
   }
